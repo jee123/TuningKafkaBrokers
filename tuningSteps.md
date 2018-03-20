@@ -4,8 +4,8 @@
 assuming logged in as root and on the kafka broker machine
 This is to augment file handle limits for kafka.
 
-echo "* hard nofile 100000
-* soft nofile 100000" | tee -- append /etc/security/limits.conf
+echo "* hard nofile 100000  
+    * soft nofile 100000" | tee -- append /etc/security/limits.conf
 
 
 #### 2. Swappiness.
